@@ -1,0 +1,29 @@
+---
+title: "Printing integers 1 to 10"
+author: "Angelina"
+date: "2023-03-11"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Printing integers 1 to 10 without using loop
+
+**Method 1**
+
+```{r}
+print(1:10)
+```
+
+## Printing integers 1 to 10 using a loop
+
+**Method 2**
+
+```{r}
+for (x in c(1:10)) {
+  print(x)
+}
+```
+
